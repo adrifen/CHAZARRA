@@ -48,7 +48,7 @@ body {
 
 .hero-header {
   min-height: 60vh;
-  background: url('https://placehold.co/1600x600?text=chazarra+Óptica') no-repeat center center;
+  background: url('https://placehold.co/1600x600?text=duque de tamames+Óptica') no-repeat center center;
   background-size: cover;
   position: relative;
 }
@@ -69,4 +69,18 @@ body {
 
 footer {
   font-size: 0.9rem;
+}
+
+.header-fondo {
+  background-image: url("logo_duque_con_optica_transparente.png");
+background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px; /* aumenta la altura para que se vea más grande */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+  text-align: center;
 }
