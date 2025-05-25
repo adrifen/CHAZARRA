@@ -75,7 +75,7 @@ footer {
 
 .header-fondo {
   background-image: url("logo_duque_con_optica_transparente.png");
-background-size: 100% 100%;
+  background-size: 85% 100%;
   background-position: center;
   background-repeat: no-repeat;
   height: 500px;
@@ -94,4 +94,8 @@ background-size: 100% 100%;
 }
 
 
-  
+  @media (max-width: 480px) {
+  .header-fondo {
+    background-size: 100% 85%;  /* Móvil: 100% ancho, 85% alto */
+  }
+}
